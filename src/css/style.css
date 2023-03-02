@@ -1,0 +1,187 @@
+:root {
+    --color-secondary: #1f212b;
+
+    --color-backgreund: #eeeeee;
+    --color-body-back: #f1f1f1;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+    margin: 0px;
+    background-color: var(--color-body-back);
+}
+
+.list-icons .hidden {
+    display: none;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    /* box-shadow: 0px 0px 5px var(--color-secondary); */
+    background-color: var(--color-backgreund);
+    transition: all .5s ease;
+}
+.header .logo {
+    max-width: 300px;
+    max-height: 90px;
+}
+
+.header .list-icons .icons {
+    margin-right: 1.5em;
+    cursor: pointer;
+    color: var(--color-secondary);
+    font-size: 1.5em;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner .banner-img {
+    width: 100%;
+    /* object-fit: contain; */
+}
+
+/* main */
+
+.cont-title {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.content-main .title {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+}
+
+.border {
+    color: #5757f0;
+    border-bottom: 7px solid #5757f0;
+} 
+
+.content-main {
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.content-main .cont-product {
+    width: 100%;
+    display: flex;
+    
+    align-items:baseline;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.content-main .cont-product .card {
+    width: 300px;
+    margin: 40px;
+    cursor: auto;
+    text-decoration: none;
+    color: #1f212b;
+    padding: 5px 10px 5px 10px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #6d6d6d;
+
+}
+
+/* cards*/
+
+.info {
+    padding: 20px 20px;
+    font-family: "montserrat";
+    
+}
+.info h2::before {
+    content: "$";
+}
+
+.info h2 {
+    font-size: 2em;
+}
+
+
+.info .pa {
+    font-size: .9em;
+    color: gray;
+    height: 20px;
+    overflow: hidden;
+    
+}
+
+
+
+.info p:hover {
+    cursor: pointer;
+    color: rgb(72, 87, 138);
+    
+}
+.info .show {
+    height: auto;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 7px;
+    width: 100%;
+    border: none;
+    background-color: #1f212b;
+    color: white;
+    font-family: "montserrat";
+    padding: 10px 10px;
+    font-size: 1.1em;
+}
+
+.btn:hover {
+    background-color: var(--color-backgreund);
+    color: var(--color-secondary);
+    outline: 2px solid var(--color-secondary);
+}
+
+.image-card {
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    height: 200px;
+    background-color: #ececec;
+    object-fit: contain;
+    
+    transition: transform .3s ease;
+}
+ 
+.image-card:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+

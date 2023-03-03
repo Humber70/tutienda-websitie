@@ -32,7 +32,7 @@ gulp.task("styles", () => {
 
     return gulp
         .src("./src/css/*.css")
-        .pipe(concat("style-min.css"))
+        .pipe(concat("style.css"))
 
         .pipe(postcss(css))
         .pipe(gulp.dest("./public/css"))
@@ -44,7 +44,7 @@ gulp.task('babel', () => {
 
     return gulp
     .src("./src/js/*.js") 
-    .pipe(concat("script-min.js"))
+    .pipe(concat("script.js"))
 
     .pipe(terser())
     .pipe(gulp.dest("./public/js"))

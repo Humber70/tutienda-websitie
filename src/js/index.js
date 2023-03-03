@@ -1,9 +1,9 @@
 import {productos}  from "./db.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    getProductos();
+// document.addEventListener('DOMContentLoaded', () => {
+//     getProductos();
     
-})
+// })
 
 
 const d = document;
@@ -55,5 +55,7 @@ function getProductos () {
     $listProduct.appendChild($fragment);   
     
 }
+
+getProductos()
 
 

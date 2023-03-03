@@ -44,7 +44,7 @@ gulp.task('babel', () => {
 
     return gulp
     .src("./src/js/*.js") 
-    .pipe(concat("script.js"))
+    .pipe(concat("index.js"))
 
     .pipe(terser())
     .pipe(gulp.dest("./public/js"))

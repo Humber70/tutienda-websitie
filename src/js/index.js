@@ -1,4 +1,4 @@
-import {productos}  from "./db.js";
+
 
 // document.addEventListener('DOMContentLoaded', () => {
 //     getProductos();

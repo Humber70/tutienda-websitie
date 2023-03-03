@@ -44,6 +44,3 @@ const productos = [
 
     
 ]
-
-
-export {productos}

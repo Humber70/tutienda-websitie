@@ -1,6 +1,4 @@
 
-
-
  const $header = document.getElementById('data-header')
  const $main = document.getElementById("data-main")
 

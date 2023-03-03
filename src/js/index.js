@@ -1,9 +1,9 @@
+import productos from "./db.json" assert {type: "json"}
 
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     getProductos();
+document.addEventListener('DOMContentLoaded', () => {
+    getProductos();
     
-// })
+})
 
 
 const d = document;
@@ -56,6 +56,5 @@ function getProductos () {
     
 }
 
-getProductos()
 
 

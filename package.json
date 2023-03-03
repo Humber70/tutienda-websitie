@@ -3,23 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "npm gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@babel/preset-env": "^7.20.2",
-    "@babel/register": "^7.18.9",
+    "@babel/register": "^7.21.0",
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.15",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
+    "gulp-cache-bust": "^1.4.1",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
     "gulp-postcss": "^9.0.1",
-    "gulp-terser": "^2.1.0"
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2"
   }
 }

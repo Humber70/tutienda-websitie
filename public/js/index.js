@@ -46,7 +46,6 @@ const productos = [
 ]
 
 
-export {productos}
 
 
 
@@ -69,12 +68,6 @@ export {productos}
 
 
  })
-import {productos}  from "./db.js";
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     getProductos();
-    
-// })
 
 
 const d = document;

@@ -46,7 +46,7 @@ gulp.task('babel', () => {
     .src("./src/js/*.js") 
     .pipe(concat("index.js"))
 
-    .pipe(terser())
+    // .pipe(terser())
     .pipe(gulp.dest("./public/js"))
     
 })

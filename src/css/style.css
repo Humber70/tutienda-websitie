@@ -95,16 +95,21 @@ body {
 }
 
 .content-main .cont-product .card {
-    width: 300px;
-    margin: 40px;
+    width: 230px;
+    margin: 10px;
     cursor: auto;
     text-decoration: none;
     color: #1f212b;
     padding: 5px 10px 5px 10px;
     background-color: #eeeeee;
     border-radius: 4px;
-    box-shadow: 0px 8px 10px 0px #6d6d6d;
+    box-shadow: 0px 8px 10px 0px #dadada;
 
+}
+
+.content-main .cont-product .card:hover {
+    box-shadow: 0px 8px 10px 0px #b4b4b4;
+    cursor: pointer;
 }
 
 /* cards*/
@@ -174,6 +179,76 @@ body {
 .image-card:hover {
     transform: scale(1.1);
 }
+
+
+.footer-btn {
+    text-align: center;
+    /* border: none; */
+    background-color: none;
+    border-bottom: 1px solid #cecece;
+}
+
+.footer-btn .btn-info {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: var(--color-backgreund);
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom: none;
+   
+    top: 1px;
+}
+
+
+.footer-btn .btn-info button {
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer-btn .btn-info .icon-info {
+    cursor: pointer;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.footer .list-info{
+    list-style: none;
+}
+
+.footer .list-info .title{
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-family: "Montserrat";
+}
+.footer .list-info a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "montserrat";
+    color: gray;
+}
+.footer .list-info a:hover{ 
+    color: #4d4d4d;
+}
+
+.footer .footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 
 
 

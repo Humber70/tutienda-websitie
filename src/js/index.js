@@ -2,6 +2,7 @@ import productos from "./db.json" assert {type: "json"}
 
 document.addEventListener('DOMContentLoaded', () => {
     getProductos();
+    footerSocial();
     
 })
 const d = document;
@@ -51,6 +52,11 @@ function getProductos () {
     $listProduct.appendChild($fragment);   
     
 }
+
+const $redes = d.querySelector(".redes")
+const $icon_redes = $redes.querySelectorAll("i")
+const $icon_red = [...$icon_redes]
+
 //boton
 const $btnIfo = d.getElementById("btn-info")
 //parent
@@ -68,7 +74,20 @@ function moreInfo () {
 }
 
 $btnIfo.addEventListener("click", moreInfo)
-    
+
+function footerSocial () {
+    for( const i of $icon_red) {
+        if(window.screen.width < 420) {
+            i.textContent = "";
+        }
+    }
+}
+window.addEventListener("resize", footerSocial)
+
+
+ 
+
+
     
     
     

@@ -40,5 +40,27 @@
         "price": 3212,
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio magnam omnis eligendi quis ipsa voluptates maxime nesciunt illum perferendis? Tenetur eos esse eaque fugiat rem quaerat delectus, minus voluptates!",
         "url": "https://filaar.vtexassets.com/arquivos/ids/6313056-800-auto?v=638023193574800000&width=800&height=auto&aspect=true"
+    },
+    {
+        "id": 7,
+        "name": "Mochila",
+        "price": 3212,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio magnam omnis eligendi quis ipsa voluptates maxime nesciunt illum perferendis? Tenetur eos esse eaque fugiat rem quaerat delectus, minus voluptates!",
+        "url": "https://filaar.vtexassets.com/arquivos/ids/6313056-800-auto?v=638023193574800000&width=800&height=auto&aspect=true"
+    },
+    {
+        "id": 8,
+        "name": "Mochila",
+        "price": 3212,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio magnam omnis eligendi quis ipsa voluptates maxime nesciunt illum perferendis? Tenetur eos esse eaque fugiat rem quaerat delectus, minus voluptates!",
+        "url": "https://filaar.vtexassets.com/arquivos/ids/6313056-800-auto?v=638023193574800000&width=800&height=auto&aspect=true"
+    },
+    {
+        "id": 9,
+        "name": "Mochila",
+        "price": 3212,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio magnam omnis eligendi quis ipsa voluptates maxime nesciunt illum perferendis? Tenetur eos esse eaque fugiat rem quaerat delectus, minus voluptates!",
+        "url": "https://filaar.vtexassets.com/arquivos/ids/6313056-800-auto?v=638023193574800000&width=800&height=auto&aspect=true"
     }
+
 ]

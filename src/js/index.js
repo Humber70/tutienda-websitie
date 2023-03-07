@@ -4,16 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     getProductos();
     
 })
-
-
 const d = document;
-// 
+
+
 const $listProduct = d.getElementById('list-product');
 const $template = d.getElementById('template').content;
 const $fragment = d.createDocumentFragment();
-
 const $list = d.getElementById('list-product')
-
 
 //elementos tempplate
 const image = $template.querySelector("img");
@@ -30,7 +27,6 @@ function mouseIn (e) {
     }
 
 }
-
 
 $list.addEventListener('click', mouseIn)
 
@@ -55,6 +51,24 @@ function getProductos () {
     $listProduct.appendChild($fragment);   
     
 }
+//boton
+const $btnIfo = d.getElementById("btn-info")
+//parent
+const $footer = d.querySelector(".footer");
+//brother
+const $btnIfo_icon = $btnIfo.firstElementChild.nextElementSibling;
+
+const $footer_info = $footer.firstElementChild;
 
 
+function moreInfo () {
 
+    $footer_info.classList.toggle("active-btn")
+    $btnIfo_icon.classList.toggle("icon-reverse")
+}
+
+$btnIfo.addEventListener("click", moreInfo)
+    
+    
+    
+    

@@ -175,7 +175,7 @@ body {
     
     transition: transform .3s ease;
 }
- 
+
 .image-card:hover {
     transform: scale(1.1);
 }
@@ -186,9 +186,9 @@ body {
 
 .footer-btn {
     text-align: center;
-    /* border: none; */
     background-color: none;
     border-bottom: 1px solid #cecece;
+    
 }
 
 .footer-btn .btn-info {
@@ -205,7 +205,7 @@ body {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-bottom: none;
-   
+    
     top: 1px;
 }
 
@@ -218,6 +218,7 @@ body {
 
 .footer-btn .btn-info .icon-info {
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .footer {
@@ -235,6 +236,8 @@ body {
     padding-bottom: 10px;
     font-family: "Montserrat";
 }
+
+
 .footer .list-info a {
     text-decoration: none;
     font-size: 12px;
@@ -248,10 +251,17 @@ body {
 .footer .footer-info {
     display: flex;
     justify-content: space-around;
+    height: 0;
+    overflow: hidden;
 }
 
 .footer .footer-articles {
-    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    display: flex; 
     justify-content: space-around;
     align-items: center;
     font-family: "Montserrat";
@@ -289,6 +299,39 @@ body {
     color: #1f212b;
 }
 
+.icon-reverse {
+    transition: all .3s ease;
+    transform: rotate(180deg);
+}
+
+
+.footer .active-btn {
+    height: auto;
+    overflow: auto;
+    /* transition: all .3s ease; */
+}
+
+@media (max-width: 600px) {
+    .footer .footer-articles {
+        flex-direction: column-reverse;
+    }
+
+    .footer .footer-info {
+        flex-direction: column;
+    }
+
+    .footer .footer-info > ul {
+        padding-top: 5px;
+        border-top: 1px solid #cecece;
+    }
+
+    .content-main .cont-product .card {
+        width: 300px;
+    }
+    .profile {
+        margin-top: 20px;
+    }
+}
 
 
 

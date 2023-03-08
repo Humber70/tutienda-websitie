@@ -65,6 +65,9 @@ body {
 .list-icons .controls .close{
     display: none;
 }
+.list-icons .controls .close-isactive {
+    display: inline-block;
+}
 .list-icons .controls .bar {
     display: none;
 }
@@ -352,6 +355,11 @@ body {
     
     .list-icons .controls .bar {
         display: block;
+        transition: all .4s ease;
+    }
+    
+    .list-icons .controls .bar-animation {
+        transform: rotate(90deg);
     }
 
 

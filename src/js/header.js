@@ -8,12 +8,17 @@
 
  const $bars = document.querySelector(".bar");
  const $show_active = document.querySelector(".list");
+ 
 
 
 
  
- $bars.addEventListener("click", function(e) {
+ $bars.addEventListener("click", (e)=>  {
+     
      $show_active.classList.toggle("show-list")
+        $bars.classList.toggle("bar-animation")
+
+
     })
     
   
@@ -24,6 +29,7 @@
            $header.style.boxShadow = "0px 0px 1px 0px #140f1b";
            $header.style.height = "70px";
            $show_active.classList.remove("show-list")
+            $bars.classList.remove("bar-animation")
            
        }else {
            $header.style.boxShadow = "none";

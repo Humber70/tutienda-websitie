@@ -11,19 +11,30 @@
     <body>
         <header class="header" id="data-header">
             <a href="">
-                <img class="logo" src="./assets/images/logo.png" alt="logo">
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="./assets/images/logo-dark.png">
+                    <img class="logo" src="./assets/images/logo.png" alt="logo">
+                </picture>
             </a>
 
             <div class="list-icons">
-                <i class="icons hidden fas fa-bars"></i>
-                <i class="icons fas fa-toggle-on"></i>
-                <i class="icons fas fa-bell" id="notification"></i>
-                <i class=" icons fas fa-shopping-cart" id="cart"></i>
+                <div class="controls">
+                    <i class="icons close fas fa-times"></i>
+                    <i class="icons bar fas fa-bars"></i>
+                </div>
+
+                <ul class="list">
+                    <li><i class="icons fas fa-toggle-on"></i></li>
+                    <li><i class="icons fas fa-bell" id="notification"></i></li>                    
+                    <li><i class="icons fas fa-shopping-cart" id="cart"></i></li>
+                    
+                </ul>
             </div>
 
         </header>
         <div class="banner">
-            <img class="banner-img" src="./assets/images/banner.png" alt="banner">
+                <img class="banner-img" src="./assets/images/banner.png" alt="banner">
+            </div>
         </div>
 
         <main class="content-main" id="data-main">
@@ -88,10 +99,10 @@
                     <a href="https://github.com/Humber70" class="git-hub" target="_blank">
                         <i class="fab fa-github"> Git Hub</i>
                     </a>
-                    <a href="https://www.freecodecamp.org/humber" class="free-code" target="_blank">
+                    <a href="https://www.linkedin.com/in/humberto-arraya/" class="free-code" target="_blank">
                         <i class="fab fa-linkedin"> Linkedin</i>
                     </a>
-                    <a href="https://www.linkedin.com/in/humberto-arraya/" class="linkedin" target="_blank">
+                    <a href="https://www.freecodecamp.org/humber" class="linkedin" target="_blank">
                         <i class="fab fa-free-code-camp"> freeCodeCamp</i>
                     </a>
                 </div>

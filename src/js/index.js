@@ -68,6 +68,12 @@ function moreInfo () {
 }
 
 $btnIfo.addEventListener("click", moreInfo)
+
+
+
+
+
+
     
     
     

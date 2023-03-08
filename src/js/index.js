@@ -85,9 +85,11 @@ function footerSocial () {
 window.addEventListener("resize", footerSocial)
 
 
- 
 
 
+
+
+    
     
     
     

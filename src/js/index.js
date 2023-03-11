@@ -15,8 +15,8 @@ const $list = d.getElementById('list-product')
 
 //elementos tempplate
 const image = $template.querySelector("img");
+const h3 = $template.querySelector('h3');
 const h2 = $template.querySelector('h2');
-const h3 = $template.querySelector('h2');
 const button =  $template.querySelector("button");
 const parrafo = $template.querySelector('p');
 
@@ -32,15 +32,14 @@ function mouseIn (e) {
 $list.addEventListener('click', mouseIn)
 
 function getProductos () {
-    productos.forEach( (element, i) => {
-        let {id, name, price, description, url} = element;
-        
-        // $card.setAttribute("id", i)
+    productos.forEach( (element) => {
+        let {name,url,description,price} = element;
+
         image.setAttribute("src", url);
         image.setAttribute("alt", name);
-        h2.textContent = name;
-        h3.textContent = price;
-        parrafo.textContent = description
+        h2.textContent = price;
+        h3.textContent = name;
+        parrafo.textContent = description;
         
         button.textContent = "agregar al carro";
         
